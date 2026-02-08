@@ -23,8 +23,8 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
 
 ??? abstract "Deseja ver os critérios de avaliação?"
     A nota final será composta por:
-    - 40% Projetos práticos
-    - 60% Prova oficial
+    - 75% Presenca
+    - 70% Pontos
 
 !!! danger "Atenção com Prazos"
     Lembre-se de que o sistema fecha automaticamente para entregas atrasadas!
