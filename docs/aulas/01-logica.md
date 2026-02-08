@@ -59,7 +59,7 @@ Vamos analisar como um computador interpretaria uma instrução simples.
 
 Abaixo está um exemplo de como estruturamos essa lógica usando uma linguagem "quase humana" (Portugol):
 
-~~~portugol
+~~~
 Algoritmo "Verificador_de_Idade"
 Var
    idade: inteiro
@@ -73,8 +73,7 @@ Inicio
       Escreva("Acesso negado: Conteúdo restrito.")
    FimSe
 FimAlgoritmo
-
-```
+~~~fea
 
 ---
 
