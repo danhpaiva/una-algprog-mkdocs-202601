@@ -4,8 +4,8 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
 
 !!! info "Objetivo da Disciplina"
     Desenvolver soluções criativas e eficientes para problemas complexos, utilizando raciocínio lógico e
-ferramentas de programação, promovendo a integração entre diferentes áreas do conhecimento e a
-contextualização dos saberes na prática profissional.
+    ferramentas de programação, promovendo a integração entre diferentes áreas do conhecimento e a
+    contextualização dos saberes na prática profissional.
 
 ## 🛠️ Recursos Rápidos
 
