@@ -31,7 +31,7 @@ nav:
   - Home: index.md
   - Guia do Professor: setup.md
   - 📖 Aulas:
-      - Introdução: aulas/01-introducao.md
+      - 01. Lógica de Programação: aulas/01-logica.md
   - 📝 Atividades:
       - Projeto 01: trabalhos/projeto-01.md
 
