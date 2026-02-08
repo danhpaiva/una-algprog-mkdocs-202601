@@ -59,7 +59,7 @@ Vamos analisar como um computador interpretaria uma instrução simples.
 
 Abaixo está um exemplo de como estruturamos essa lógica usando uma linguagem "quase humana" (Portugol):
 
-~~~
+```
 Algoritmo "Verificador_de_Idade"
 Var
    idade: inteiro
@@ -73,7 +73,7 @@ Inicio
       Escreva("Acesso negado: Conteúdo restrito.")
    FimSe
 FimAlgoritmo
-~~~fea
+```
 
 ---
 
@@ -87,7 +87,7 @@ Um erro clássico é esquecer de dar uma condição de parada para o computador.
 
 ## 📝 Atividade de Fixação
 
-??? abstract "Exercício: O Desafio da Travessia"
+"Exercício: O Desafio da Travessia"
 Um fazendeiro precisa levar um lobo, uma cabra e um maço de couve para o outro lado do rio. 
 Ele tem um barco que só permite levar ele e mais um item.
 
@@ -95,6 +95,7 @@ Ele tem um barco que só permite levar ele e mais um item.
 **Regras:**
 - Se o lobo ficar sozinho com a cabra, ele a come.
 - Se a cabra ficar sozinha com a couve, ela a come.
+```
 
 **Tarefa:** Escreva no seu caderno o passo a passo (algoritmo) para atravessar todos em segurança.
 
