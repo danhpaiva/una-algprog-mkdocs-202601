@@ -61,6 +61,7 @@ O deploy está configurado via **GitHub Actions**. Para que funcione corretament
 * **Nome da Disciplina:** Altere o campo `site_name` no arquivo `mkdocs.yml`.
 * **Menu Lateral:** Organize suas aulas e pastas na seção `nav:` do `mkdocs.yml`.
 * **Cores e Temas:** Você pode alterar a cor primária de `indigo` para outras cores (ex: `red`, `blue`, `deep-purple`) no `mkdocs.yml`.
+* Dicas Visuais: Use !!! info, !!! tip ou !!! danger para criar alertas coloridos para os alunos.
 
 ---
 
