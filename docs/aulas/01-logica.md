@@ -32,6 +32,16 @@ Para resolver qualquer problema na nossa área, usamos quatro pilares:
 === "4. Algoritmos"
     Criar o passo a passo definitivo (a receita) para resolver o problema.
 
+
+## 🧠 Pensamento Algorítmico Incremental
+
+Construa algoritmos passo a passo:
+
+1.  Resolver manualmente
+2.  Escrever em linguagem natural
+3.  Transformar em pseudocódigo
+4.  Testar com exemplos
+5.  Melhorar
 ---
 
 ## 🤖 Desafio Prático: O Algoritmo do "Mestre Cuca"
@@ -74,6 +84,16 @@ Inicio
    FimSe
 FimAlgoritmo
 ```
+
+## 🔎 Teste de Mesa (Simulação)
+
+Antes de executar, simule o algoritmo manualmente.
+
+  idade   Resultado
+  ------- -----------
+  10      Negado
+  18      Permitido
+  30      Permitido
 
 ---
 
