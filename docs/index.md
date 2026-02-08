@@ -18,10 +18,10 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
     ```
 
 === "🗓️ Cronograma"
-    | Aula | Assunto                            | Entrega    |
-    | :--- | :--------------------------------- | :--------- |
-    | 01   | Logica                             | - Lista 01 |
-    | 02   | Lógica de Programação e Fluxograma | -          |
+    | Aula | Assunto                            | Entrega  |
+    | :--- | :--------------------------------- | :------- |
+    | 01   | Logica                             | Lista 01 |
+    | 02   | Lógica de Programação e Fluxograma | -        |
 
 ??? abstract "Deseja ver os critérios de avaliação?"
     A nota final será composta por:
