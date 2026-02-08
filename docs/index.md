@@ -3,7 +3,9 @@
 Aqui você encontrará todo o material de apoio, cronograma e orientações da nossa disciplina.
 
 !!! info "Objetivo da Disciplina"
-    Capacitar o estudante a dominar as ferramentas de documentação técnica utilizando padrões de mercado como Markdown e MkDocs.
+    Desenvolver soluções criativas e eficientes para problemas complexos, utilizando raciocínio lógico e
+ferramentas de programação, promovendo a integração entre diferentes áreas do conhecimento e a
+contextualização dos saberes na prática profissional.
 
 ## 🛠️ Recursos Rápidos
 
@@ -16,10 +18,10 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
     ```
 
 === "🗓️ Cronograma"
-    | Aula | Assunto                  | Entrega     |
-    | :--- | :----------------------- | :---------- |
-    | 01   | Introdução ao MkDocs     | -           |
-    | 02   | CI/CD com GitHub Actions | Exercício 1 |
+    | Aula | Assunto                            | Entrega     |
+    | :--- | :--------------------------------- | :---------- |
+    | 01   | Logica                             | -           |
+    | 02   | Lógica de Programação e Fluxograma | Exercício 1 |
 
 ??? abstract "Deseja ver os critérios de avaliação?"
     A nota final será composta por:
