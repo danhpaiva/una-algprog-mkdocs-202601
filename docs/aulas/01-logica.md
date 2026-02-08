@@ -98,11 +98,7 @@ Ele tem um barco que só permite levar ele e mais um item.
 
 **Tarefa:** Escreva no seu caderno o passo a passo (algoritmo) para atravessar todos em segurança.
 
-```
-
 ---
 
 !!! tip "Próximos Passos"
 Na próxima aula, transformaremos essa lógica em **Variáveis e Tipos de Dados**. Não esqueça de revisar este material!
-
-```

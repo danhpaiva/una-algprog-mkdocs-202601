@@ -29,7 +29,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Guia do Professor: setup.md
+  # - Guia do Professor: setup.md
   - 📖 Aulas:
       - 01. Lógica: aulas/01-logica.md
   - 📝 Atividades:
