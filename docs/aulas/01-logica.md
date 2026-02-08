@@ -86,8 +86,7 @@ Um erro clássico é esquecer de dar uma condição de parada para o computador.
 ---
 
 ## 📝 Atividade de Fixação
-
-"Exercício: O Desafio da Travessia"
+??? abstract "Exercício: O Desafio da Travessia"
 Um fazendeiro precisa levar um lobo, uma cabra e um maço de couve para o outro lado do rio. 
 Ele tem um barco que só permite levar ele e mais um item.
 
