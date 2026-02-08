@@ -89,11 +89,13 @@ FimAlgoritmo
 
 Antes de executar, simule o algoritmo manualmente.
 
+~~~
   idade   Resultado
   ------- -----------
   10      Negado
   18      Permitido
   30      Permitido
+~~~
 
 ---
 
