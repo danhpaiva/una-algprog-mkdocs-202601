@@ -1,4 +1,3 @@
-```markdown
 # 🧠 Aula 01: O Pensamento Computacional
 
 Bem-vindos à base de tudo! Antes de digitarmos uma única linha de código, precisamos aprender a "ensinar" uma máquina a pensar. Spoiler: máquinas são muito rápidas, mas incrivelmente literais (e um pouco burras).
