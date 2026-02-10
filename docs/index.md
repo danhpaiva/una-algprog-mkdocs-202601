@@ -10,11 +10,14 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
 ## 🛠️ Recursos Rápidos
 
 === "💻 Código de Exemplo"
-    ```python
-    def saudacao():
-        print("Olá, aluno da UNA! Pronto para codar?")
-    
-    saudacao()
+    ```java
+        void main() {
+            saudacao();
+        }
+
+        void saudacao() {
+            System.out.println("Olá, aluno da UNA! Pronto para codar?");
+        }
     ```
 
 === "🗓️ Cronograma"
