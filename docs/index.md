@@ -24,7 +24,7 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
     | Aula | Assunto                            | Entrega  |
     | :--- | :--------------------------------- | :------- |
     | 01   | Logica                             | Lista 01 |
-    | 02   | Lógica de Programação e Fluxograma | -        |
+    | 02   | Lógica de Programação e Fluxograma | Lista 02 |
 
 ??? abstract "Deseja ver os critérios de avaliação?"
     A nota final será composta por:
