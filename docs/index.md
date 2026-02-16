@@ -21,10 +21,24 @@ Aqui você encontrará todo o material de apoio, cronograma e orientações da n
     ```
 
 === "🗓️ Cronograma"
-    | Aula | Assunto                            | Entrega  |
-    | :--- | :--------------------------------- | :------- |
-    | 01   | Logica                             | Lista 01 |
-    | 02   | Lógica de Programação e Fluxograma | -        |
+    | Aula | Assunto                                                  | Entrega  |
+    | :--- | :------------------------------------------------------- | :------- |
+    | 01   | Logica                                                   | Lista 01 |
+    | 02   | Lógica de Programação e Fluxograma                       | Lista 02 |
+    | 03   | Pseudocódigo e boas práticas de construção de algoritmos | Lista 03 |
+    | 04   | Pseudocódigo e boas práticas de construção de algoritmos | Lista 04 |
+    | 05   | Pseudocódigo e boas práticas de construção de algoritmos | Lista 05 |
+    | 07   | Tipos de dados primitivos e compostos                    | Lista 06 |
+    | 07   | Estruturas de controle: IF-ELSE                          | Lista 07 |
+    | 08   | Estruturas de controle: SWITCH CASE                      | Lista 08 |
+    | 09   | Estruturas de controle: WHILE E DO-WHILE                 | Lista 09 |
+    | 10   | Estruturas de controle: FOR E FOREACH                    | Lista 10 |
+    | 11   | Vetor                                                    | Lista 11 |
+    | 12   | Funcoes                                                  | Lista 12 |
+    | 13   | Estrutura de Dados                                       | Lista 13 |
+    | 14   | POO                                                      | Lista 14 |
+    | 15   | POO                                                      | Lista 15 |
+    | 15   | POO                                                      | Lista 15 |
 
 ??? abstract "Deseja ver os critérios de avaliação?"
     A nota final será composta por:
