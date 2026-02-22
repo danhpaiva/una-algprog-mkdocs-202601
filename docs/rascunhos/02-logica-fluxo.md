@@ -1,9 +1,3 @@
-Com certeza! Como seu mentor, vou refinar as soluções. Escrever em **Portugol** é o passo ideal antes de pularmos para linguagens como Python ou Java, pois foca 100% na **lógica** e 0% em sintaxe complexa.
-
-Aqui estão os algoritmos estruturados para você testar diretamente no editor:
-
----
-
 ## 🚗 Exercício 1: Sensor de Estacionamento (Condicionais Aninhadas)
 
 Neste caso, usamos o `senao se` para criar faixas de distância. A ordem importa: se a distância for 0.3m, ela satisfaz tanto ser menor que 0.5m quanto menor que 2m, mas o "PARE" deve ter prioridade.
