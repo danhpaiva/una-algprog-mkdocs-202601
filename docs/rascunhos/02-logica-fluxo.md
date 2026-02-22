@@ -1,113 +1,99 @@
-# 📐 Aula 02: O Mapa da Mina (Fluxogramas e Tomada de Decisão)
+Com certeza! Como seu mentor, vou refinar as soluções. Escrever em **Portugol** é o passo ideal antes de pularmos para linguagens como Python ou Java, pois foca 100% na **lógica** e 0% em sintaxe complexa.
 
-Se na aula passada aprendemos a "receita do bolo", hoje vamos aprender a desenhar o mapa que o computador segue. Como desenvolvedor sênior, garanto: **um código bem desenhado é um código que funciona de primeira.**
-
----
-
-## 🗺️ O que é um Fluxograma?
-
-Um fluxograma é a representação visual de um algoritmo. É a ponte entre a ideia na sua cabeça e o código no VS Code. Por que usar?
-
-* **Clareza:** Identifica erros de lógica antes mesmo de programar.
-* **Documentação:** Ajuda outros desenvolvedores a entenderem seu raciocínio.
-* **Padronização:** Usa símbolos mundiais que qualquer programador (da China ao Brasil) entende.
+Aqui estão os algoritmos estruturados para você testar diretamente no editor:
 
 ---
 
-## 🏗️ A Caixa de Ferramentas (Simbologia ANSI)
+## 🚗 Exercício 1: Sensor de Estacionamento (Condicionais Aninhadas)
 
-Para desenhar fluxogramas, não usamos qualquer forma. Cada símbolo tem um significado semântico específico:
+Neste caso, usamos o `senao se` para criar faixas de distância. A ordem importa: se a distância for 0.3m, ela satisfaz tanto ser menor que 0.5m quanto menor que 2m, mas o "PARE" deve ter prioridade.
 
-| Símbolo                           | Nome         | Função                                                        |
-| --------------------------------- | ------------ | ------------------------------------------------------------- |
-| **Terminal (Oval)**               | Início / Fim | Indica onde o processo começa e termina.                      |
-| **Processamento (Retângulo)**     | Ação         | Cálculos, atribuições de valores ou operações internas.       |
-| **Entrada/Saída (Paralelogramo)** | Dados        | Quando o programa lê algo do teclado ou exibe na tela.        |
-| **Decisão (Losango)**             | Condicional  | Uma pergunta (Sim/Não). Aqui o fluxo se divide.               |
-| **Setas**                         | Fluxo        | Indicam a direção obrigatória que o "pensamento" deve seguir. |
+```portugol
+programa {
+  funcao inicio() {
+    real distancia
 
----
+    escreva("Digite a distância do obstáculo (em metros): ")
+    leia(distancia)
 
-## 🚦 A Estrutura de Decisão (O "Se" na Prática)
-
-Na vida real, raramente seguimos uma linha reta. "Se chover, levo guarda-chuva; senão, vou de óculos de sol". No computador, chamamos isso de **Estrutura de Seleção**.
-
-### Exemplo: Sistema de Média Escolar
-
-Imagine um algoritmo que decide se um aluno foi aprovado (Média 7.0):
-
-```mermaid
-graph TD
-    A([Início]) --> B[/Digite a Nota/]
-    B --> C{Nota >= 7?}
-    C -- Sim --> D[/Exibir: Aprovado!/]
-    C -- Não --> E[/Exibir: Recuperação/]
-    D --> F([Fim])
-    E --> F
+    se (distancia < 0.5) {
+      escreva("ALERTA: [PARE] - Bipe Contínuo!")
+    } 
+    senao se (distancia <= 2.0) {
+      escreva("CUIDADO: Bipe Intermitente...")
+    } 
+    senao {
+      escreva("Caminho livre. Sensor em silêncio.")
+    }
+  }
+}
 
 ```
 
 ---
 
-## 🛠️ Do Desenho ao Pseudocódigo
+## 📸 Exercício 2: Filtro do Instagram (Decisões Sequenciais)
 
-Veja como o fluxograma acima se traduz em lógica escrita (Portugol):
+Aqui temos duas decisões independentes. Mesmo que o usuário não aplique o filtro, ele ainda pode decidir se quer postar ou salvar.
+
+```portugol
+programa {
+  funcao inicio() {
+    cadeia aplicarFiltro, postarAgora
+
+    escreva("Deseja aplicar o filtro P&B? (sim/nao): ")
+    leia(aplicarFiltro)
+
+    se (aplicarFiltro == "sim") {
+      escreva("-> Filtro aplicado com sucesso!\n")
+    }
+
+    escreva("Deseja postar a foto agora? (sim/nao): ")
+    leia(postarAgora)
+
+    se (postarAgora == "sim") {
+      escreva("-> Foto enviada para o servidor!")
+    } senao {
+      escreva("-> Foto salva na galeria local.")
+    }
+  }
+}
 
 ```
-Algoritmo "Validador_de_Notas"
-Var
-    nota: real
-Inicio
-    Escreva("Informe a nota final: ")
-    Leia(nota)
-    
-    Se (nota >= 7.0) entao
-        Escreva("Status: APROVADO")
-    Senao
-        Escreva("Status: EXAME FINAL")
-    FimSe
-FimAlgoritmo
+
+---
+
+## 🏧 Exercício 3: Caixa Eletrônico (Validação de Saldo)
+
+Este é o algoritmo mais crítico. Observe que a operação de subtração só acontece **dentro** do bloco `se`, garantindo que ninguém saque o que não tem.
+
+```portugol
+programa {
+  funcao inicio() {
+    real saldo_disponivel = 1000.00 // Exemplo de saldo inicial
+    real valor_saque
+
+    escreva("Saldo Atual: R$ ", saldo_disponivel, "\n")
+    escreva("Quanto deseja sacar? ")
+    leia(valor_saque)
+
+    se (valor_saque > 0 e valor_saque <= saldo_disponivel) {
+      saldo_disponivel = saldo_disponivel - valor_saque
+      escreva("Saque realizado! Retire as notas.\n")
+      escreva("Novo Saldo: R$ ", saldo_disponivel)
+    } 
+    senao {
+      escreva("ERRO: Saldo insuficiente ou valor inválido.")
+    }
+  }
+}
 
 ```
 
 ---
 
-## 🔍 O "Pulo do Gato": Condições Compostas
+### 🎓 Dica do Professor
 
-E se tivermos mais de duas opções? Usamos o **Se-Senão-Se** (aninhamento).
-*Exemplo: Se nota > 9 (Excelente), Se nota > 7 (Bom), Senão (Reprovado).*
+Note que no **Exercício 3**, eu adicionei uma verificação extra: `valor_saque > 0`. Como desenvolvedor sênior, eu te digo: usuários tentam fazer coisas estranhas, como sacar valores negativos para tentar "ganhar" dinheiro. **Sempre valide as entradas!**
 
-!!! info "Dica de Sênior"
-Sempre verifique se todos os caminhos (setas) do seu fluxograma levam a um "Fim". Um caminho sem saída no fluxograma vira um *bug* de travamento no sistema.
-
----
-
-## 📝 Desafios de Design de Lógica
-
-??? abstract "Exercício 1: O Sensor de Estacionamento"
-Desenhe (ou descreva) o fluxo para um sensor de ré de um carro:
-- O sensor lê a distância.
-- **Se** a distância for menor que 0.5m: Tocar bipe contínuo e exibir "PARE".
-- **Se** estiver entre 0.5m e 2m: Tocar bipe intermitente.
-- **Senão**: Não emitir som.
-
-??? abstract "Exercício 2: O Filtro do Instagram"
-Crie a lógica para um filtro de foto:
-1. O usuário escolhe uma foto.
-2. O sistema pergunta: "Aplicar filtro P&B?"
-3. Se sim, transforma em cinza. Se não, mantém original.
-4. O sistema pergunta: "Postar agora?"
-5. Se sim, envia para o servidor. Se não, salva na galeria.
-*Dica: Use dois losangos de decisão em sequência.*
-
-??? abstract "Exercício 3: O Caixa Eletrônico"
-Escreva o algoritmo para um saque:
-- Ler o `valor_saque`.
-- Verificar se o `valor_saque` é menor ou igual ao `saldo_disponivel`.
-- Se for, subtrair do saldo e entregar as notas.
-- Se não for, exibir "Saldo Insuficiente".
-
----
-
-!!! tip "Próxima Parada"
-Agora que você já sabe desenhar o caminho, vamos aprender a guardar informações nesse trajeto. Prepare-se para a aula de **Variáveis e Operadores Matemáticos**!
+**O que você acha de tentarmos criar agora um sistema de login simples (Usuário e Senha) usando essa mesma lógica?**
