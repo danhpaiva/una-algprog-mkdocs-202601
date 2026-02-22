@@ -1,12 +1,14 @@
 # 📐 Aula 02: O Mapa da Mina (Fluxogramas e Tomada de Decisão)
 
-Se na aula passada aprendemos a "receita do bolo", hoje vamos aprender a desenhar o mapa que o computador segue. Como desenvolvedor sênior, garanto: **um código bem desenhado é um código que funciona de primeira.**
+Se na aula passada aprendemos a "receita do bolo", hoje vamos aprender a desenhar o mapa que o computador segue. 
+Como desenvolvedor, garanto: **um código bem desenhado é um código que funciona de primeira.**
 
 ---
 
 ## 🗺️ O que é um Fluxograma?
 
-Um fluxograma é a representação visual de um algoritmo. É a ponte entre a ideia na sua cabeça e o código no VS Code. Por que usar?
+Um fluxograma é a representação visual de um algoritmo. É a ponte entre a ideia na sua cabeça e o código no VS Code. 
+Por que usar?
 
 * **Clareza:** Identifica erros de lógica antes mesmo de programar.
 * **Documentação:** Ajuda outros desenvolvedores a entenderem seu raciocínio.
@@ -30,7 +32,9 @@ Para desenhar fluxogramas, não usamos qualquer forma. Cada símbolo tem um sign
 
 ## 🚦 A Estrutura de Decisão (O "Se" na Prática)
 
-Na vida real, raramente seguimos uma linha reta. "Se chover, levo guarda-chuva; senão, vou de óculos de sol". No computador, chamamos isso de **Estrutura de Seleção**.
+Na vida real, raramente seguimos uma linha reta. 
+"Se chover, levo guarda-chuva; senão, vou de óculos de sol". 
+No computador, chamamos isso de **Estrutura de Seleção**.
 
 ### Exemplo: Sistema de Média Escolar
 
@@ -78,7 +82,8 @@ E se tivermos mais de duas opções? Usamos o **Se-Senão-Se** (aninhamento).
 *Exemplo: Se nota > 9 (Excelente), Se nota > 7 (Bom), Senão (Reprovado).*
 
 !!! info "Dica de Sênior"
-Sempre verifique se todos os caminhos (setas) do seu fluxograma levam a um "Fim". Um caminho sem saída no fluxograma vira um *bug* de travamento no sistema.
+Sempre verifique se todos os caminhos (setas) do seu fluxograma levam a um "Fim". 
+Um caminho sem saída no fluxograma vira um *bug* de travamento no sistema.
 
 ---
 
@@ -110,4 +115,5 @@ Escreva o algoritmo para um saque:
 ---
 
 !!! tip "Próxima Parada"
-Agora que você já sabe desenhar o caminho, vamos aprender a guardar informações nesse trajeto. Prepare-se para a aula de **Variáveis e Operadores Matemáticos**!
+Agora que você já sabe desenhar o caminho, vamos aprender a guardar informações nesse trajeto. 
+Prepare-se para a aula de **Variáveis e Operadores Matemáticos**!
