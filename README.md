@@ -1,4 +1,4 @@
-# Una - UC MkDocs Template
+# Una - Algoritmos e Programacao Template
 
 Template padrão para documentação de Unidades Curriculares (UC) utilizando **MkDocs Material**.
 
