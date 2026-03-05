@@ -8,6 +8,31 @@ Vamos transformar seus fluxogramas e algoritmos de decisão em seu primeiro marc
 
 ---
 
+## 📝 Desafios de Design de Lógica
+
+??? abstract "Exercício 1: O Sensor de Estacionamento"
+Desenhe (ou descreva) o fluxo para um sensor de ré de um carro:
+- O sensor lê a distância.
+- **Se** a distância for menor que 0.5m: Tocar bipe contínuo e exibir "PARE".
+- **Se** estiver entre 0.5m e 2m: Tocar bipe intermitente.
+- **Senão**: Não emitir som.
+
+??? abstract "Exercício 2: O Filtro do Instagram"
+Crie a lógica para um filtro de foto:
+1. O usuário escolhe uma foto.
+2. O sistema pergunta: "Aplicar filtro P&B?"
+3. Se sim, transforma em cinza. Se não, mantém original.
+4. O sistema pergunta: "Postar agora?"
+5. Se sim, envia para o servidor. Se não, salva na galeria.
+*Dica: Use dois losangos de decisão em sequência.*
+
+??? abstract "Exercício 3: O Caixa Eletrônico"
+Escreva o algoritmo para um saque:
+- Ler o `valor_saque`.
+- Verificar se o `valor_saque` é menor ou igual ao `saldo_disponivel`.
+- Se for, subtrair do saldo e entregar as notas.
+- Se não for, exibir "Saldo Insuficiente".
+
 ## 🛠️ O Algoritmo da Entrega: Versão 2.0
 
 Siga estes passos para consolidar sua aprendizagem de **Fluxogramas e Estruturas de Decisão**:
